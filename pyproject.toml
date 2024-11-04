@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "llm-agent-with-tools-and-tables"
+version = "0.1.0"
+description = "Mark's fall 2024 project"
+authors = ["Mark Carlebach <markjcarlebach@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.8"
+unstructured = "*"
+pandas = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
